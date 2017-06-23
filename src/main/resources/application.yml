@@ -1,0 +1,7 @@
+spring:
+    application:
+       name: spc-test-server
+server:
+  port: 8088
+logging:
+  level: debug
