@@ -8,5 +8,6 @@ spring:
                uri: https://github.com/zhangmenyucom/config-center
                searchPaths: '{application}'
                force-pull: true
+               basedir: target/config #加载到ConfigServer项目所在的本地目录的位置
 logging:
   level: debug
