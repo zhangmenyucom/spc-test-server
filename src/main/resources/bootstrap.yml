@@ -9,5 +9,15 @@ spring:
                searchPaths: '{application}'
                force-pull: true
                basedir: target/config #加载到ConfigServer项目所在的本地目录的位置
+            health:
+              repositories:
+               check:
+                name: cnfig-centger #git健康检测
+security:
+  user:
+    name: user
+    password: 7cc3d4c3-9fda-48be-bb7f-6bd304c2ec57
+
 logging:
   level: debug
+
