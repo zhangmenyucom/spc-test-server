@@ -13,10 +13,15 @@ spring:
               repositories:
                check:
                 name: cnfig-centger #git健康检测
-security:
-  user:
-    name: user
-    password: 7cc3d4c3-9fda-48be-bb7f-6bd304c2ec57
+    rabbitmq:
+       host: 192.168.186.128
+       port: 5672
+       username: spring-cloud
+       password: guest
+#security:
+ # user:
+  #  name: user
+   # password: 7cc3d4c3-9fda-48be-bb7f-6bd304c2ec57
 
 logging:
   level: debug
